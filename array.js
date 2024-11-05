@@ -36,7 +36,7 @@ const arr = [
 
 
 
-//Manipulate Arrays with Push method
+//Manipulate Arrays with Push methods
 const arr1 = [1, 2, 3];
 arr1.push(4, 5);
 
@@ -45,7 +45,7 @@ arr2.push(["happy", "joy"]);
 console.log(arr1,arr2);
 
 
-//Manipulate Arrays With pop Method
+//Manipulate Arrays With pop Methods
 const threeArr = [1, 4, 6];
 const oneDown = threeArr.pop();
 console.log(oneDown);
