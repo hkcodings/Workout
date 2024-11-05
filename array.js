@@ -52,7 +52,7 @@ console.log(oneDown);
 console.log(threeArr);
 
 
-//Manipulate Arrays With shift Method
+//Manipulate Arrays With shift Methods
 const ourArray = ["Stimpson", "J", ["cat"]];
 const removedFromOurArray = ourArray.shift();
 console.log(ourArray);
