@@ -57,7 +57,7 @@ const ourArray = ["Stimpson", "J", ["cat"]];
 const removedFromOurArray = ourArray.shift();
 console.log(ourArray);
 
-//Manipulate Arrays With unshift Method
+//Manipulate Arrays With unshift Methods
 const ourArray1 = ["Stimpson", "J", "cat"];
 ourArray.shift();
 ourArray.unshift("Happy");
