@@ -59,3 +59,17 @@ const ourDog2 = {
   
   delete ourDog2.bark;
   console.log(ourDog2);
+
+//Testing Objects for Properties
+function checkForProperty(object, property) {
+    return object.hasOwnProperty(property);
+  }
+  
+  const a1 = checkForProperty({ top: 'hat', bottom: 'pants' }, 'top');
+  const a2 = checkForProperty({ top: 'hat', bottom: 'pants' }, 'middle');
+
+  console.log(a1,a2);
+
+
+
+  
