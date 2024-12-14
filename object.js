@@ -70,6 +70,21 @@ function checkForProperty(object, property) {
 
   console.log(a1,a2);
 
+//Accessing Nested Objects
+const ourStorage = {
+  "desk": {
+    "drawer": "stapler"
+  },
+  "cabinet": {
+    "top drawer": { 
+      "folder1": "a file",
+      "folder2": "secrets"
+    },
+    "bottom drawer": "soda"
+  }
+};
 
-
+const ourStorageContents1 = ourStorage.cabinet["top drawer"].folder2;
+const ourStorageContents2 = ourStorage.desk.drawer;
+console.log(ourStorageContents1,ourStorageContents2);
   
